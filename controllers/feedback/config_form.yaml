@@ -1,0 +1,10 @@
+name: Feedback
+form: $/mcmraak/mcfaq/models/feedback/fields.yaml
+modelClass: Mcmraak\Mcfaq\Models\Feedback
+defaultRedirect: mcmraak/mcfaq/feedback
+create:
+    redirect: 'mcmraak/mcfaq/feedback/update/:id'
+    redirectClose: mcmraak/mcfaq/feedback
+update:
+    redirect: mcmraak/mcfaq/feedback
+    redirectClose: mcmraak/mcfaq/feedback

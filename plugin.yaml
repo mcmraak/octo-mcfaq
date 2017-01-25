@@ -1,0 +1,16 @@
+plugin:
+    name: 'MC FAQ'
+    description: 'mcmraak.mcfaq::lang.plugin.description'
+    author: mcmraak
+    icon: oc-icon-lightbulb-o
+    homepage: ''
+navigation:
+    mcfaq:
+        label: 'MC FAQ'
+        url: mcmraak/mcfaq/feedback
+        icon: icon-wechat
+        sideMenu:
+            feedback:
+                label: Вопрос-Ответ
+                url: mcmraak/mcfaq/feedback
+                icon: icon-comments

@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table mcmraak_mcfaq_feedback'
+    - builder_table_create_mcmraak_mcfaq_feedback.php
+1.0.3:
+    - 'Updated table mcmraak_mcfaq_feedback'
+    - builder_table_update_mcmraak_mcfaq_feedback.php

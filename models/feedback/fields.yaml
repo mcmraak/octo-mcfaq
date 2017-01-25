@@ -1,0 +1,38 @@
+fields:
+    active:
+        label: Проверено
+        span: full
+        type: switch
+    name:
+        label: Имя
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    email:
+        label: Почта
+        oc.commentPosition: ''
+        span: right
+        type: text
+    question:
+        label: Вопрос
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    answer:
+        label: Ответ
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    ip:
+        label: 'ip - адрес'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    date:
+        label: 'Дата вопроса'
+        span: right
+        oc.commentPosition: ''
+        mode: datetime
+        type: datepicker
